@@ -31,7 +31,6 @@ def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
                 temp = extra
                 extra = 0
                 print(f'node1: None  node2: None sum: {temp}   extra:{extra}')
-
         li.append(ListNode(temp % 10))
 
     for i in range(0, len(li) - 1):
